@@ -325,7 +325,6 @@ figure {
 }
 
 .hero {
-
   background-size: cover;
   background-position: top ;
   background-image: url("http://i.imgur.com/ouyGtub.jpg");
@@ -333,6 +332,45 @@ figure {
   background-repeat:no-repeat;
 }
 
+.blackwhite {
+  -webkit-filter: grayscale(100%) brightness(40%);
+}
+
+.desaturate {
+  -webkit-filter: saturate(10%);
+}
+
+.opacity {
+  -webkit-filter: opacity(50%);
+}
+
+.banner {
+  padding-top: 10%;
+  background-image: url('http://i.imgur.com/QEfrOqB.jpg?1?6592');
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 10%;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+.overlay { 
+  color: white; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.6); 
+}
+
+.banner h1 {
+  text-align:center;
+  position: relative;
+  margin: 10%;
+}
 
 img {
   vertical-align: middle;
