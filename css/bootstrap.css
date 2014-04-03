@@ -531,7 +531,8 @@ h6,
 }
 p {
   margin: 0 0 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-family: "Pontano Sans", Helvetica, Arial;
+  font-size:14px;
 }
 .lead {
   margin-bottom: 20px;
@@ -2151,7 +2152,7 @@ fieldset[disabled] .btn-default.active {
   display: inline-block;
   padding: 10px 22px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: regular;
   line-height: 2;
   text-align: center;
@@ -3865,13 +3866,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 20px;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
 }
+
+
+
+
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
@@ -4077,12 +4082,28 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a {
   color: #777;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav> li> a:hover,
+.navbar-default .navbar-nav> li> a:focus {
   background-color: #8e0202;
   color:white;
-  border-radius: 0px;
+  border-radius: 0px;  
+  }
+  .navbar-social{
+float:right !important;
+padding:5px;
+font-size:18px;
+line-height:20px;
+height:20px
 }
+  .nav .navbar-social > a {
+    margin: 0px -30px 5px 2px;
+    padding:5px;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+}
+  
+  }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -5946,5 +5967,12 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+  
+  
+    
+  
+  
+  
+  
 }
 /*# sourceMappingURL=bootstrap.css.map */
